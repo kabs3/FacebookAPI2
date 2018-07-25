@@ -25,8 +25,8 @@
   <div class="container">
     <center>
       <h2>Facebook API Plugins</h2>
-      
-    
+      <div class="fb-like" data-href="https://kabs3.github.io/FacebookAPI2/" data-layout="standard" data-action="like" data-size="large" data-show-faces="true" data-share="true"></div>    
+      <div class="fb-comments" data-href="https://kabs3.github.io/FacebookAPI2/" data-numposts="20"></div>
     </center>
   </div>
   <footer class="page-footer blue darken-4" style="position:fixed;bottom:0;left:0;width:100%;">
@@ -40,5 +40,14 @@
 
   <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
   <script type="text/javascript" src="js/materialize.min.js"></script>
+  <div id="fb-root"></div>
+      <script>(function(d, s, id) {
+       var js, fjs = d.getElementsByTagName(s)[0];
+       if (d.getElementById(id)) return;
+       js = d.createElement(s); js.id = id;
+       js.src = 'https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v3.0&appId=1049047728604702&autoLogAppEvents=1';
+       fjs.parentNode.insertBefore(js, fjs);
+     }(document, 'script', 'facebook-jssdk'));</script>
+
 </body>
 </html>
